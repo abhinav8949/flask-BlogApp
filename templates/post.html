@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+ {% set fname='img/' + posts.img_file %}
+  <header class="masthead" style="background-image: 
+  url('{{url_for('static', filename= fname )}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h2>{{posts.title}}</h2>
+            <h3 class="subheading">{{posts.subtitle}}</h3>
+            <span class="meta">Posted by
+              <a href="#">{{posts.posted_by}}</a>
+              {{posts.date}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>{{posts.content}}</p>
+        <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary btn-sm float-left" href="/">&larr; Home</a>
+            <a class="btn btn-primary btn-sm float-right" href="#">Next &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+        
+       
+    </div>
+  </article>
+{% endblock %}

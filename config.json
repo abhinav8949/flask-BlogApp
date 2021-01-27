@@ -1,0 +1,29 @@
+{
+      "params":
+  {
+  "local_server": "True",
+  "local_uri": "mysql://root:@localhost/abhinav_flask",
+  "prod_uri": "mysql://root:@localhost/abhinav_flask",
+  "fb_url": "https://facebook.com/your_link",
+    "tw_url": "https://twitter.com/your_link",
+    "insta_url": "https://instagram.com/your_link",
+    "git_url": "https://github.com/your_link",
+    "linkedin_url": "https://linkedin.com/your_link",
+    "title": "Your_Name Blog",
+    "brand_name": "Your_Name",
+    "blog_name": "Personal Blog",
+    "tagline": "Co-powerd by Your_Name",
+    "owner_name": "Your_Name",
+    "about_owner": "Hello everyone contact me on: your_mail@gmail.com",
+    "gmail_user": "your_mailgmail.com",
+    "gmail_password": "*************",
+    "post_slug": "",
+    "about": "Hii this is your_name",
+    "no_of_post": 15,
+    "login_logo": "sign-in.png",
+    "admin_uname": "admin",
+    "admin_pass": "admin",
+    "upload_location": "D:\\flask\\static\\img>\n"
+
+}
+}
