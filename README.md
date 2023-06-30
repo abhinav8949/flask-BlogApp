@@ -5,14 +5,14 @@ This is simple responsive coding-blog learning project on flask.
 2. User can read blog, mail his/her query in contact section.
 
 ### `install python 3.7.6`
-1.1: `pip install flask`.\ `pip installmysqlconnector`.\
-`pip install mysqldb`.\ `pip install flask-sqlalchemy`.\
- `pip install os`.\ `pip install werkzeug`.\
-  `pip install flask-mail`.\ `pip install datetime`
+1.1: `pip install flask`, `pip installmysqlconnector`,
+`pip install mysqldb`, `pip install flask-sqlalchemy`,
+ `pip install os`, `pip install werkzeug`, 
+  `pip install flask-mail`, `pip install datetime`
 .\
-1.2: `install any server like XAMPP, WAMP` 
-	1.2.1: Run Apache and `Mysql (port:3307)`.\
-	1.2.2: open webbrowser & typed localhost click phpmyadmin..\
+1.2: `install any server like XAMPP, WAMP`.\
+	1.2.1: Run Apache and `Mysql (port:3307)`
+	1.2.2: open webbrowser & typed localhost click phpmyadmin.
 	1.2.3: go to phpmyadmin and import `flask_blog.sql`
  .\
 1.3: Edit `config.json` file according to your need!!!
