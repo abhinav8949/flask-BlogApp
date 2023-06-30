@@ -24,6 +24,7 @@ local_server=True
 if(local_server):
     app.config['SQLALCHEMY_DATABASE_URI'] = params["local_uri"]
     app.config['SECRET_KEY'] = "abcgbu"
+    
 else:
     app.config['SQLALCHEMY_DATABASE_URI'] = params["prod_uri"]
 
